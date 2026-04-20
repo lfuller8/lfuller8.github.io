@@ -111,6 +111,14 @@ footer p {
     margin: 5px 0;
 }
 
+footer a{
+    color: #2f2f2f;
+}
+
+footer a:hover{
+    color: #7a7a7a;
+}
+
 .Sarah_Photo{
     width: 40%;
     height: 40%;
@@ -290,4 +298,21 @@ main {
 
 .services-note a:hover {
     color: #7a7a7a;
+}
+
+.service-card-final {
+    border: 1px solid #dddddd;
+    background-color: #fafafa;
+    padding: 30px;
+    text-align: left;
+    grid-column: 1 / -1;
+    max-width: 435px;
+    width: 100%;
+    justify-self: center;
+}
+
+.service-card-final h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
 }
