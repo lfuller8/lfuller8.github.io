@@ -3,7 +3,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Bodoni Moda, serif;
+    font-weight: 900;
     background-color: #ffffff;
     color: #2f2f2f;
 }
@@ -53,6 +54,7 @@ main {
 main h1 {
     font-size: 2.2rem;
     font-weight: normal;
+    margin-top: 0;
     margin-bottom: 20px;
 }
 
@@ -107,4 +109,108 @@ footer {
 
 footer p {
     margin: 5px 0;
+}
+
+.Sarah_Photo{
+    width: 40%;
+    height: 40%;
+    margin-bottom: 20px;
+}
+
+.About_Main {
+    flex: 1;
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px 60px 20px;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 12px;
+}
+
+.contact-form label {
+    font-size: 0.95rem;
+    color: #2f2f2f;
+    letter-spacing: 0.5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #7a7a7a;
+}
+
+.contact-form button {
+    margin-top: 10px;
+    padding: 12px 20px;
+    border: none;
+    background-color: #2f2f2f;
+    color: #ffffff;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555555;
+}
+
+.contact-info {
+    margin-top: 50px;
+}
+
+.contact-info a {
+    color: #2f2f2f;
+}
+
+.contact-info a:hover {
+    color: #7a7a7a;
+}
+
+.testimonials {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    background-color: #fafafa;
+    text-align: left;
+}
+
+.testimonials p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #444444;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.testimonials cite {
+    display: block;
+    text-align: right;
+    font-size: 0.95rem;
+    color: #777777;
+    font-style: normal;
 }
