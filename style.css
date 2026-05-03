@@ -112,11 +112,25 @@ footer p {
     margin: 5px 0;
 }
 
-footer a{
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.footer-contact img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+footer a {
     color: #2f2f2f;
 }
 
-footer a:hover{
+footer a:hover {
     color: #7a7a7a;
 }
 
@@ -189,13 +203,39 @@ main {
 
 .contact-info {
     margin-top: 50px;
+    text-align: center;
 }
 
-.contact-info a {
+.contact-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+
+    width: 100%;
+    max-width: none;
+    margin: 12px auto;
+
+    color: #555555;
+}
+
+.contact-link img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.contact-link span {
     color: #2f2f2f;
 }
 
-.contact-info a:hover {
+.contact-link a {
+    color: #2f2f2f;
+}
+
+.contact-link a:hover {
     color: #7a7a7a;
 }
 
