@@ -246,9 +246,6 @@ main {
     border: 1px solid #dddddd;
     background-color: #fafafa;
     text-align: left;
-}
-
-.testimonials {
     display: flex;
     align-items: center;
     gap: 30px;
