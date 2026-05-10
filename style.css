@@ -43,7 +43,7 @@ nav a:hover {
     color: #7a7a7a;
 }
 
-.Home-Main {
+.Home_Main {
     flex: 1;
     width: 85%;
     max-width: 900px;
@@ -112,7 +112,7 @@ footer p {
     margin: 5px 0;
 }
 
-.footer-contact {
+.footer_contact {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,7 +120,7 @@ footer p {
     flex-wrap: wrap;
 }
 
-.footer-contact img {
+.footer_contact img {
     width: 25px;
     height: 25px;
     object-fit: contain;
@@ -149,13 +149,13 @@ main {
     text-align: center;
 }
 
-.contact-container {
+.contact_container {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
 
-.contact-form {
+.contact_form {
     width: 100%;
     max-width: 600px;
     display: flex;
@@ -164,14 +164,14 @@ main {
     gap: 12px;
 }
 
-.contact-form label {
+.contact_form label {
     font-size: 0.95rem;
     color: #2f2f2f;
     letter-spacing: 0.5px;
 }
 
-.contact-form input,
-.contact-form textarea {
+.contact_form input,
+.contact_form textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #cccccc;
@@ -180,13 +180,13 @@ main {
     box-sizing: border-box;
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
+.contact_form input:focus,
+.contact_form textarea:focus {
     outline: none;
     border-color: #7a7a7a;
 }
 
-.contact-form button {
+.contact_form button {
     margin-top: 10px;
     padding: 12px 20px;
     border: none;
@@ -197,16 +197,16 @@ main {
     cursor: pointer;
 }
 
-.contact-form button:hover {
+.contact_form button:hover {
     background-color: #555555;
 }
 
-.contact-info {
+.contact_info {
     margin-top: 50px;
     text-align: center;
 }
 
-.contact-link {
+.contact_link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,22 +220,22 @@ main {
     color: #555555;
 }
 
-.contact-link img {
+.contact_link img {
     width: 24px;
     height: 24px;
     object-fit: contain;
     flex-shrink: 0;
 }
 
-.contact-link span {
+.contact_link span {
     color: #2f2f2f;
 }
 
-.contact-link a {
+.contact_link a {
     color: #2f2f2f;
 }
 
-.contact-link a:hover {
+.contact_link a:hover {
     color: #7a7a7a;
 }
 
@@ -258,15 +258,15 @@ main {
     flex-shrink: 0;
 }
 
-.testimonial-text {
+.testimonial_text {
     flex: 1;
 }
 
-.image-left {
+.image_left {
     flex-direction: row;
 }
 
-.image-right {
+.image_right {
     flex-direction: row;
 }
 
@@ -286,17 +286,17 @@ main {
     font-style: normal;
 }
 
-.gallery-section {
+.gallery_section {
     margin-top: 60px;
     text-align: left;
 }
 
-.gallery-section h2 {
+.gallery_section h2 {
     text-align: left;
     margin-bottom: 20px;
 }
 
-.photo-row {
+.photo_row {
     display: flex;
     gap: 20px;
     overflow-x: auto;
@@ -304,7 +304,7 @@ main {
     scroll-behavior: smooth;
 }
 
-.photo-row img {
+.photo_row img {
     width: 300px;
     height: 400px;
     object-fit: cover;
@@ -312,58 +312,58 @@ main {
     border-radius: 4px;
 }
 
-.photo-row::-webkit-scrollbar {
+.photo_row::-webkit-scrollbar {
     height: 8px;
 }
 
-.photo-row::-webkit-scrollbar-thumb {
+.photo_row::-webkit-scrollbar-thumb {
     background-color: #cccccc;
     border-radius: 10px;
 }
 
-.photo-row::-webkit-scrollbar-track {
+.photo_row::-webkit-scrollbar-track {
     background-color: #f2f2f2;
 }
 
-.services-grid {
+.services_grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     margin-top: 40px;
 }
 
-.service-card {
+.service_card {
     border: 1px solid #dddddd;
     background-color: #fafafa;
     padding: 30px;
     text-align: left;
 }
 
-.service-card h2 {
+.service_card h2 {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 1.4rem;
 }
 
-.service-card p {
+.service_card p {
     margin: 0;
     max-width: 100%;
 }
 
-.services-note {
+.services_note {
     margin-top: 50px;
 }
 
-.services-note a {
+.services_note a {
     color: #2f2f2f;
     text-decoration: none;
 }
 
-.services-note a:hover {
+.services_note a:hover {
     color: #7a7a7a;
 }
 
-.service-card-final {
+.service_card_final {
     border: 1px solid #dddddd;
     background-color: #fafafa;
     padding: 30px;
@@ -374,7 +374,7 @@ main {
     justify-self: center;
 }
 
-.service-card-final h2 {
+.service_card_final h2 {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 1.4rem;
